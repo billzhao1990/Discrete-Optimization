@@ -4,12 +4,13 @@ My scripts are all coded using python. But I do not use pypy, cython, or numba t
 
 ## Knapsack Problem
 
-The consuming time with respect to different algorithm. (The cells filled with 'NA' indicate that under corresponding algorithm )
+The consuming time with respect to different algorithm. (The cells filled with 'NA' indicate that under corresponding algorithm the consuming time for that problem is considerably large.)
 
 | Algorithm | 30 items | 50 items | 100 items | 200 items | 400 items | 1000 items | 10000 items |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Dynamic Programming | ||||||
-| Depth-First Branch and Bound |1.739s | 0.0828s | NA | NA | 109.9207s | 89.1667s | NA |
+| Dynamic Programming |16s|90s|53s| 102s|||
+| Depth-First Branch and Bound |1.739s | 0.0828s | NA | NA | 109s | 89s | NA |
+| Optimal value in knapsack | 99798 | 142156 | 99837 | 100236 |
 
 
 
