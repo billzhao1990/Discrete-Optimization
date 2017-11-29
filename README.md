@@ -7,7 +7,7 @@ My scripts are all coded using python. But I do not use pypy, cython, or numba t
 The consuming time with respect to different algorithm. (The cells filled with 'N/A' indicate that under corresponding algorithm the consuming time for that problem is considerably large.)
 
 | Algorithm | 30 items | 50 items | 100 items | 200 items | 400 items | 1000 items |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | 
 | Dynamic Programming |16s|90s|53s| 102s| N/A| N/A |
 | Depth-First Branch and Bound |1.739s | 0.0828s | N/A | N/A | 109s | 89s |
 | Optimal value in knapsack | 99798 | 142156 | 99837 | 100236 | 3967132 | 109899 |
