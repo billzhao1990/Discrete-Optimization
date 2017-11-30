@@ -8,7 +8,7 @@ The consuming time with respect to different algorithm. (The cells filled with '
 
 | Algorithm | 30 items | 50 items | 100 items | 200 items | 400 items | 1000 items | 10000 items |
 | --- | --- | --- | --- | --- | --- | --- |  --- |
-| Dynamic Programming |16s|90s|53s| 102s| N/A| 488s | N/A |
+| Dynamic Programming |16s|90s|53s| 102s| Explode! | 488s | Explode! |
 | Depth-First Branch and Bound |0.037s | 0.002s | Explode! | Explode! | 0.806s | 0.299s | 42s |
 | Optimal value in knapsack | 99798 | 142156 | 99837 | 100236 | 3967180 | 109899 | 1099893 |
 
